@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detaļu pasūtīšanas forma</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm width-custom">
+            <select id="thk"  class="form-select" aria-label="Default select example">
+                <option selected>Biezums</option>
+              </select>
+          </div>
+          <div class="col-sm width-custom">
+            <select id="group" class="form-select" aria-label="Default select example">
+                <option selected>Grupa</option>
+              </select>
+          </div>
+          <div class="col-sm">
+            <select id="matName" class="form-select" aria-label="Default select example">
+                <option selected>Materiāls</option>
+            </select>
+          </div>
+          <div class="col-sm width-custom-2">
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">mm</span>
+                <input id="length" type="text" class="form-control" placeholder="Garums" aria-label="Garums" aria-describedby="basic-addon1">
+                <select id="abs1" class="form-select width-custom" aria-label="Default select example">
+                  <option selected>ABS</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+             </div>
+          </div>
+          <div class="col-sm width-custom-2">
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">mm</span>
+                <input id="width" type="text" class="form-control" placeholder="Platums" aria-label="Platums" aria-describedby="basic-addon1">
+                <select id="abs2" class="form-select width-custom" aria-label="Default select example">
+                  <option selected>ABS</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+          </div>
+          <div class="col-sm width-custom">
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">Gab.</span>
+                <input id="quantity" type="text" class="form-control" placeholder="0" value="" aria-label="gab." aria-describedby="basic-addon1">
+            </div>          
+          </div>
+
+          <div class="col-sm width-custom">
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">m2</span>
+                <input id="m2" type="text" class="form-control" placeholder="0.00" value="" aria-label="m2" aria-describedby="basic-addon1">
+            </div>          
+          </div>
+
+          <!-- Proceessing -->
+          <div class="row">
+          <div class="col-sm">
+            <div class="input-group">
+                <div class="input-group-text">
+                  <input id="groove" class="form-check-input" type="checkbox" aria-label="Checkbox for following text input">
+                </div>
+                <input id="grooveValue" type="text" class="form-control" placeholder="Gropes(mm)" aria-label="Text input with checkbox">
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="input-group">
+                <div class="input-group-text">
+                  <input id="drilling" class="form-check-input" type="checkbox" aria-label="Checkbox for following text input">
+                </div>
+                <input id="drillingValue" type="text" class="form-control" placeholder="Urbumi(gab)" aria-label="Text input with checkbox">
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="input-group">
+                <div class="input-group-text">
+                  <input id="milling" class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+                </div>
+                <input id="millingValue" type="text" class="form-control" placeholder="Frēzēšana(mm)" aria-label="Text input with checkbox">
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="input-group">
+                <div class="input-group-text">
+                  <input id="figuralProcessing" class="form-check-input" type="checkbox" value="" aria-label="Checkbox for following text input">
+                </div>
+                <input id="figuralProcessingValue" type="text" class="form-control" placeholder="Figurālās detaļas(mm)" aria-label="Text input with checkbox">
+              </div>
+          </div>
+
+          <!-- buttons -->
+          </div>
+          <div class="custom-buttons">
+            <button id="addItem" type="button" class="btn btn-primary btn-sm">Pievienot</button>
+            <button type="button" class="btn btn-secondary btn-sm">Exportēt</button>
+          </div>
+
+          <!-- Table -->
+          <div class="col-sm col-custom">
+            <table id="ItemTable" class="table table-striped table-hover">
+              <thead class="table-dark">
+                <tr id="tableHead">
+                  <th scope="col">#</th>
+                  <th scope="col">Biezums</th>
+                  <th scope="col">Cenas grupa</th>
+                  <th scope="col">Materiāls</th>
+                  <th scope="col">Garums</th>
+                  <th scope="col">//</th>
+                  <th scope="col">Platums</th>
+                  <th scope="col">//</th>
+                  <th scope="col">Skaits</th>
+                  <th scope="col">m2</th>
+                  <th scope="col">Grp</th>
+                  <th scope="col">Urb</th>
+                  <th scope="col">Fr</th>
+                  <th scope="col">Fig.det.</th>                  
+                  <th scope="col">Cena, €</th>
+                </tr>
+              </thead>
+              <tbody id="tableTbody">
+                <!-- Table body -->
+
+                <tr>
+                  <th scope="col" rowspan="2"><b><p>Kopā:</p></b></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th id="quantityTotal" scope="col"><b><p>0</p></b></th>
+                  <th id="m2Total" scope="col"><b><p>0 m2</p></b></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>                  
+                  <th id="priceTotal" scope="col"><b><p>0.00 €</p></b></th>                  
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="col-sm col-custom">
+            <table id="total" class="table">
+                
+            </table>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+      <script src="script.js"></script>
+</body>
+</html>

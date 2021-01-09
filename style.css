@@ -1,0 +1,53 @@
+.container {
+    margin-top: 50px;
+    width: 90%;
+    border: 1px solid grey;
+}
+
+.row {
+    height: 100%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    --bs-gutter-x: 0rem;
+}
+
+.width-custom {
+    max-width: 100%;
+}
+
+@media (min-width: 576px) {
+    .width-custom {
+        max-width: 120px;
+    }
+    .width-custom-2 {
+        max-width: 240px;
+    }
+}
+
+.col-sm {
+    padding: 3px;
+}
+
+.col-custom {
+    flex: auto;
+}
+
+.input-group-text {
+    width: 40px;
+    justify-content: center;
+}
+
+.form-select, .form-control, .input-group-text{
+    font-size: 0.8rem;
+}
+
+.table {
+    margin-top: 25px;
+    font-size: .8rem;
+}
+
+.custom-buttons {
+    margin-top: 10px;
+    text-align-last: center;
+}

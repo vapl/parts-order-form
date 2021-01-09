@@ -1,0 +1,245 @@
+{
+    "3 mm": [{
+        "A": ["W10250 - White",
+            "U5034 - Grey",
+            "U156 - Sand Beige",
+            "U16024(D1192) - Congo",
+            "U12141 virsma Grafit"
+        ]
+    }],
+
+    "10 mm": [{
+        "A": [
+            "H1334 ST2 Light Sorano Oak",
+            "U961 ST9 Graphite Grey",
+            "U727 ST9 Stone Grey",
+            "U708 ST2 Light Grey",
+            "W980 PW Platinum White",
+            "K020 ST9 Fireside Select Walnut",
+            "U156 ST12 Sand Beige",
+            "H3395 ST9 Natural Corbridge Oak",
+            "H1733 ST9 Mainau Birch",
+            "H3840 - Natural Mandal Maple"
+        ],
+        "B": [
+            "U504 ST9 Tyrolean Blue",
+            "U626 ST9 Kiwi Green",
+            "U325 ST22 Antique Rose",
+            "H3450 ST19 White Fleetwood",
+            "U201 ST10 Pebble Grey",
+            "F416 ST16 Beige Textile",
+            "H1399 ST10 Truffle Brown Denver Oak",
+            "H3303 ST9 Natural Hamilton Oak",
+            "U830 ST9 Caramel Nude",
+            "H1277 ST9 Light Lakeland Acacia",
+            "U767 ST9 Cubanit Grey",
+            "U960 ST9 Onyx Grey",
+            "F186 ST2 Light Grey Chicago Concrete",
+            "F501 ST9 Brushed Aluminium",
+            "U702 ST9 Cashmere Grey",
+            "U748 ST9 Truffle Brown",
+            "W1000 ST9 Premium White",
+            "U104 ST22 Alabaster White",
+            "H1424 LN Fineline Cream",
+            "R20169 ST12 Nabucco",
+            "H1199 ST10 Black-Brown Thermo Oak‌‌",
+            "H3730  virsma Natural Hickory‌‌"
+        ],
+        "C": [
+            "H1253 ST19 Truffle Brown Branson Robinia",
+            "H3192 ST38 Brown Fineline Metallic",
+            "H1346 ST38 Anthracite Sherman Oak",
+            "W1000 ST36 Premium White",
+            "H3154  Dark Brown Charleston Oak",
+            "H3326  Grey-Beige GladStone Oak"
+        ],
+        "G": [
+            "Venge Veneer",
+            "Oak Veneer",
+            "Painted MDF"
+        ]
+    }],
+
+    "16 mm": [{
+        "A": [
+            "U961 ST9 Graphite Grey",
+            "U708 ST2 Light Grey",
+            "W980 PW Platinum White"
+        ],
+        "B": [
+            "H3450 ST19 White Fleetwood",
+            "H3303 ST9 Natural Hamilton Oak",
+            "F186 ST2 Light Grey Chicago Concrete",
+            "F501 ST9 Brushed Aluminium",
+            "U104 ST22 Alabaster White",
+            "H1424 LN Fineline Cream",
+            "R20169 ST12 Nabucco",
+            "H3730  virsma Natural Hickory‌‌"
+        ]
+    }],
+
+    "18 mm": [{
+        "A": [
+            "H1334 ST2 Light Sorano Oak",
+            "U961 ST9 Graphite Grey",
+            "U727 ST9 Stone Grey",
+            "U708 ST2 Light Grey",
+            "W980 PW Platinum White",
+            "K020 ST9 Fireside Select Walnut",
+            "U156 ST12 Sand Beige",
+            "H3395 ST9 Natural Corbridge Oak",
+            "H1733 ST9 Mainau Birch",
+            "H3840 - Natural Mandal Maple"
+        ],
+        "B": [
+            "U780 ST9 Monument Grey",
+            "U504 ST9 Tyrolean Blue",
+            "U626 ST9 Kiwi Green",
+            "U325 ST22 Antique Rose",
+            "H3430 ST22 White Aland Pine",
+            "H3450 ST19 White Fleetwood",
+            "U201 ST10 Pebble Grey",
+            "H2033 ST9 Dark Hunton Oak",
+            "F187 ST10 Dark Grey Chicago Concrete",
+            "F416 ST16 Beige Textile",
+            "F637 ST10 White Chromix",
+            "H1399 ST10 Truffle Brown Denver Oak",
+            "H3303 ST9 Natural Hamilton Oak",
+            "U830 ST9 Caramel Nude",
+            "H1277 ST9 Light Lakeland Acacia",
+            "U767 ST9 Cubanit Grey",
+            "U960 ST9 Onyx Grey",
+            "F186 ST2 Light Grey Chicago Concrete",
+            "F501 ST9 Brushed Aluminium",
+            "U732 ST9 Dust Grey",
+            "U702 ST9 Cashmere Grey",
+            "U748 ST9 Truffle Brown",
+            "W1000 ST9 Premium White",
+            "U104 ST22 Alabaster White",
+            "H1424 LN Fineline Cream",
+            "R20169 ST12 Nabucco",
+            "H1199 ST10 Black-Brown Thermo Oak‌‌",
+            "H3730  virsma Natural Hickory‌‌"
+        ],
+        "C": [
+            "H1253 ST19 Truffle Brown Branson Robinia",
+            "H3192 ST38 Brown Fineline Metallic",
+            "U998 ST32 Shadow Black",
+            "H1346 ST38 Anthracite Sherman Oak",
+            "W1000 ST36 Premium White",
+            "H3154  Dark Brown Charleston Oak",
+            "H3326  Grey-Beige GladStone Oak",
+            "LK90 virsma Dark Oak 'magister tabacco'"
+        ],
+        "D": [
+            "FA33 virsma Aged Bronze, textile"
+        ],
+        "E": [
+            "1919L gloss Cemento",
+            "6340B gloss Bigio Metallic",
+            "1678L gloss Rame Metallic",
+            "5026B gloss Meringa"
+        ],
+        "F": [
+            "M018 gloss Blu Vetro",
+            "M055 gloss Cammello",
+            "M021 virsma Tortora"
+        ],
+        "G": [
+            "Venge Veneer",
+            "Oak Veneer",
+            "Painted MDF"
+        ]
+    }],
+
+    "19 mm": [{
+        "G": [
+            "AL06 metals Brushed Bronze",
+            "AL04 metals Brushed Gold",
+            "AL03  Brushed Inox",
+            "S2-PA2S01#19  Natural Oak (Veneer)",
+            "S2-PA2S06#19  Mystery Oak (Veneer)",
+            "S2-PA2S04#19  Desert Oak (Veneer)",
+            "S2-PA2S15#19  Smoked Walnut (Veneer)"
+        ]
+    }],
+
+    "20 mm": [{
+        "G": [
+            "0032 matt Fenix Bianco Kos",
+            "0725 matt Fenix Grigio Efeso",
+            "0720 metals Fenix Nero Ingo"
+        ]
+    }],
+
+    "25 mm": [{
+        "A": [
+            "H1334 ST2 Light Sorano Oak",
+            "U961 ST9 Graphite Grey",
+            "U727 ST9 Stone Grey",
+            "U708 ST2 Light Grey",
+            "W980 PW Platinum White",
+            "K020 ST9 Fireside Select Walnut",
+            "U156 ST12 Sand Beige",
+            "H3395 ST9 Natural Corbridge Oak",
+            "H1733 ST9 Mainau Birch",
+            "H3840 - Natural Mandal Maple"
+        ],
+        "B":[
+            "H3430 ST22 White Aland Pine",
+            "H3450 ST19 White Fleetwood",
+            "F416 ST16 Beige Textile",
+            "H1399 ST10 Truffle Brown Denver Oak",
+            "H3303 ST9 Natural Hamilton Oak",
+            "H1277 ST9 Light Lakeland Acacia",
+            "U767 ST9 Cubanit Grey",
+            "U960 ST9 Onyx Grey",
+            "F186 ST2 Light Grey Chicago Concrete",
+            "F501 ST9 Brushed Aluminium",
+            "U702 ST9 Cashmere Grey",
+            "U748 ST9 Truffle Brown",
+            "W1000 ST9 Premium White",
+            "U104 ST22 Alabaster White",
+            "H1424 LN Fineline Cream",
+            "R20169 ST12 Nabucco",
+            "H1199 ST10 Black-Brown Thermo Oak‌‌",
+            "H3730  virsma Natural Hickory‌‌"
+        ],
+        "C":[
+            "H1253 ST19 Truffle Brown Branson Robinia",
+            "H3192 ST38 Brown Fineline Metallic",
+            "U998 ST32 Shadow Black",
+            "H1346 ST38 Anthracite Sherman Oak",
+            "W1000 ST36 Premium White",
+            "H3154  Dark Brown Charleston Oak",
+            "H3326  Grey-Beige GladStone Oak"
+        ],
+        "G":[
+            "Venge Veneer",
+            "Oak Veneer",
+            "Painted MDF"
+        ]
+    }],
+
+    "38 mm":[{
+        "A":[
+            "H1334 ST2 Light Sorano Oak"
+        ],
+        "B":[
+            "U767 ST9 Cubanit Grey",
+            "W1000 ST9 Premium White",
+            "H1424 LN Fineline Cream",
+            "H3730  virsma Natural Hickory‌‌"
+        ],
+        "C":[
+            "H3192 ST38 Brown Fineline Metallic",
+            "W1000 ST36 Premium White",
+            "H3154  Dark Brown Charleston Oak"
+        ],
+        "G":[
+            "Venge Veneer",
+            "Oak Veneer",
+            "Painted MDF"
+        ]
+    }]
+}
